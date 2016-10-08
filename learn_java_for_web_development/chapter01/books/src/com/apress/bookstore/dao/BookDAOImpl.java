@@ -24,7 +24,7 @@ public class BookDAOImpl implements BookDAO {
 
     private Connection getConnection() throws SQLException {
         return DriverManager.getConnection("jdbc:mysql://192.168.17.151:3306/books",
-                "root", "198924");
+                "root", "pwd");
     }
 
     private void closeConnection(Connection connection) {

@@ -18,7 +18,12 @@ public class ConnectionFactory {
     {
         try {
             reader = Resources.getResourceAsReader("mybatis-config.xml");
-sqlMapper = new SqlSessionFactoryBuilder().build(reader);
+/*
+String password = decryptPassword(encryptedPassword);
+Properties properties = new Properties();
+properties.setProperty("password", password);
+ */
+            sqlMapper = new SqlSessionFactoryBuilder().build(reader /*,properties*/);
 
         }
         catch (Exception e)

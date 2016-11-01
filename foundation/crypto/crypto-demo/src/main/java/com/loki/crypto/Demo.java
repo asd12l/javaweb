@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.security.GeneralSecurityException;
 import java.io.UnsupportedEncodingException;
 /**
- * Created by 16070617 on 2016/11/1.
+ * Created by Loki on 2016/11/1.
  */
 public class Demo {
 
